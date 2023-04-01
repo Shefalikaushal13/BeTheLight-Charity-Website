@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+#div1{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#div1 a{
+    color: white;
+    font-size: 22px;
+}
+
+#div2 font{
+    margin: 10px;
+    color: #ed820e;
+    font-family: 'playfair display';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div3{
+    background-image: url(https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div3 h1{
+    font-weight: 800;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#div3 h2,p{
+    color: white;
+    display: flex
+}
+
+#div4 font{
+    margin-top: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div4 p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+font{
+    margin-top: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#div5 button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.inspire{
+    background-color: #00adcc;
+    text-align: center;
+}
+
+.sponsor-education{
+    background-color: #fe683c;
+    text-align: center;
+}
+
+.donate{
+    background-color: #189900;
+    text-align: center;
+}
+
+font{
+    margin-top: 60px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#div6 img{
+    height: 600px;
+    width: 600px;
+    margin: 60px;
+}

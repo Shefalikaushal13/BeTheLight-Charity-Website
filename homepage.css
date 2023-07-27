@@ -6,16 +6,16 @@ body{
     font-family: 'poppins';
 }
 
-#div1{
-    background-color: black;
+#menu{
+    background-color: #3b2f2f;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
-#div1 a{
-    color: white;
+#menu a{
+    color: #f1f9ec;
     font-size: 22px;
 }
 
@@ -45,7 +45,7 @@ body{
     align-items: center;
 }
 
-#div3 h1{
+#div3 h2{
     font-weight: 800;
     color: white;
     justify-content: center;
@@ -54,25 +54,12 @@ body{
     
 }
 
-#div3 h2,p{
+#div3 p{
     color: white;
-    display: flex
+    display: flex;
+    text-align: center;
 }
 
-#div4 font{
-    margin-top: 60px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#div4 p{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 font{
     margin-top: 60px;
@@ -82,53 +69,59 @@ font{
     align-items: center;
 }
 
-#div5{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
+
+footer{
+    background-color:#3b2f2f;
 }
 
-#div5 button{
-    background-color: black;
+.footercontainer{
+    margin-top: 3%;
+    width: 100%;
+    padding: 10px 30px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/*hover effects on icons*/
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
     color: white;
-    height: 40px;
-    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.footerbottom p{
+    color: white;
+    text-align: center;
     margin-bottom: 20px;
-
 }
 
-.inspire{
-    background-color: #00adcc;
-    text-align: center;
-}
-
-.sponsor-education{
-    background-color: #fe683c;
-    text-align: center;
-}
-
-.donate{
-    background-color: #189900;
-    text-align: center;
-}
-
-font{
-    margin-top: 60px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#div6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-#div6 img{
-    height: 600px;
-    width: 600px;
-    margin: 60px;
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }

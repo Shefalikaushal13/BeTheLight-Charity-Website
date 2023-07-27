@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+#menu{
+    background-color: #3b2f2f;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#menu a{
+    color: #f1f9ec;
+    font-size: 22px;
+}
+
+#div2 font{
+    margin: 10px;
+    color: #ed820e;
+    font-family: 'playfair display';
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#div3 h2{
+    margin-top: 60px;
+    font-weight: 1000;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+#mission h3{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+#mission p{
+    color: black;
+    font-weight: 550;
+    font-size: medium;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#who h3{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+#who p{
+    color: black;
+    font-weight: 550;
+    font-size: medium;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#impact h3{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+#impact p{
+    color: black;
+    font-weight: 550;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+#impact img{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+#programs h3{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+#programs p{
+    color: black;
+    font-weight: 550;
+    font-size: medium;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#help h3{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+#help p{
+    color: black;
+    font-weight: 550;
+    font-size: medium;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#help h4{
+    font-size: large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+footer{
+    background-color:#3b2f2f;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 10px 30px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    margin-top: 30px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/*hover effects on icons*/
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerbottom p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
